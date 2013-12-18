@@ -15,39 +15,354 @@
     <head>
         <title>Sportquoin</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="description" content="Página inicial de la red social sportquoin.com">
-        <meta name="keywords" content="sportquoin,Software deportivo,Red social,red,social,red social de deportes,deporte,deportes,sport,sports,torneos,bolo,bolos,bowling,baloncesto,basketball,futbol,soccer,tenis,futbol sala,voleibol">
+        <meta name="description" content="Página inicial">
+        <meta name="keywords" content="Frontend">
         <meta name="author" content="Juan Carlos Checa Mora">
         <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
-        <link rel="shortcut icon" href="in/recursos/img/logosurprisecs.png" type="image/x-icon" />        
-        
+        <link rel="shortcut icon" href="in/recursos/img/logosurprisecs.png" type="image/x-icon" />
+
         <link rel="stylesheet" href="global/css/normalize.css">
-        
-        <link rel="stylesheet" href="global/bootstrap/css/bootstrap.min.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="global/bootstrap/css/bootstrap-select.css" type="text/css" media="screen">
-        
-        <link rel="stylesheet" href="global/css/stylestxt.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="global/css/puls4.css" type="text/css" media="screen">
     </head>
+
     <body>
-    	<header></header>
-    	<nav></nav>
-    	<section></section>
-    	<footer>
-    		<h3>
+        <header>
+            <div class="logo">
+                <img src="global/img/logo.png" alt="Puls4" />
+            </div>
+            <div class="titular">
+                <h1 class="titulo">
+                    Puls4: Comunidad profesional de gente atractiva
+                </h1>
+                <div class="lin2">
+                    <div>
+                        <a class="filtro" href="#">
+                            Stylus
+                        </a>
+                        <a class="publicar" href="#">
+                            Publicar
+                        </a>
+                    </div>
+                </div>
+                <div class="lin3">
+                    <a href="#12" class="sizer">A</a>
+                    <a href="#16" class="sizer">A</a>
+                    <a href="#22" class="sizer">A</a>
+                </div>
+            </div>
+            <div class="usuario">
+                <figure class="avatar">
+                    <img src="global/img/avatar.jpg" alt="freddier" />
+                </figure>
+                <a class="flechita" href="#"></a>
+            </div>
+        </header>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Python</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Django</a></li>
+                <li><a href="#">CSS3</a></li>
+            </ul>
+        </nav>
+
+        <form action="">
+            <p><label for="titulo">Título</label><input name="titulo" type="text"></p>
+            <p><label for="autor">Autor</label><input name="autor" type="text"></p>
+            <p><label for="tag">Tag</label><input name="tag" type="text"></p>
+            <p><label for="imagen">Imagen</label><input name="imagen" type="file"></p>
+            <input type="submit" value="Publicar">
+        </form>
+
+        <section class="posts">
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="global/img/foto.jpg" />
+                    </figure>
+                    <div class="detalles">
+                        <h2 class="titulo">
+                            Colores, gradientes y texto 3D con Sass y Compass
+                        </h2>
+                        <p class="autor">
+                            por <a href="#">Diana Reyes</a>
+                        </p>
+                        <a class="tag" href="#">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong> min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a class="up" href="#"></a>
+                            <span class="total">12</span>
+                        <a class="down" href="#"></a>
+                    </div>
+                    <div class="datos">
+                        <a class="comentarios" href="#">
+                            10
+                        </a>
+                        <a class="estrellita" href="#"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="global/img/foto.jpg" />
+                    </figure>
+                    <div class="detalles">
+                        <h2 class="titulo">
+                            Colores, gradientes y texto 3D con Sass y Compass
+                        </h2>
+                        <p class="autor">
+                            por <a href="#">Diana Reyes</a>
+                        </p>
+                        <a class="tag" href="#">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong> min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a class="up" href="#"></a>
+                            <span class="total">33</span>
+                        <a class="down" href="#"></a>
+                    </div>
+                    <div class="datos">
+                        <a class="comentarios" href="#">
+                            10
+                        </a>
+                        <a class="estrellita" href="#"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="global/img/foto.jpg" />
+                    </figure>
+                    <div class="detalles">
+                        <h2 class="titulo">
+                            Colores, gradientes y texto 3D con Sass y Compass
+                        </h2>
+                        <p class="autor">
+                            por <a href="#">Diana Reyes</a>
+                        </p>
+                        <a class="tag" href="#">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong> min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a class="up" href="#"></a>
+                            <span class="total">5</span>
+                        <a class="down" href="#"></a>
+                    </div>
+                    <div class="datos">
+                        <a class="comentarios" href="#">
+                            10
+                        </a>
+                        <a class="estrellita" href="#"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="global/img/foto.jpg" />
+                    </figure>
+                    <div class="detalles">
+                        <h2 class="titulo">
+                            Colores, gradientes y texto 3D con Sass y Compass
+                        </h2>
+                        <p class="autor">
+                            por <a href="#">Diana Reyes</a>
+                        </p>
+                        <a class="tag" href="#">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong> min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a class="up" href="#"></a>
+                            <span class="total">156</span>
+                        <a class="down" href="#"></a>
+                    </div>
+                    <div class="datos">
+                        <a class="comentarios" href="#">
+                            10
+                        </a>
+                        <a class="estrellita" href="#"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="global/img/foto.jpg" />
+                    </figure>
+                    <div class="detalles">
+                        <h2 class="titulo">
+                            Colores, gradientes y texto 3D con Sass y Compass
+                        </h2>
+                        <p class="autor">
+                            por <a href="#">Diana Reyes</a>
+                        </p>
+                        <a class="tag" href="#">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong> min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a class="up" href="#"></a>
+                            <span class="total">156</span>
+                        <a class="down" href="#"></a>
+                    </div>
+                    <div class="datos">
+                        <a class="comentarios" href="#">
+                            10
+                        </a>
+                        <a class="estrellita" href="#"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="global/img/foto.jpg" />
+                    </figure>
+                    <div class="detalles">
+                        <h2 class="titulo">
+                            Colores, gradientes y texto 3D con Sass y Compass
+                        </h2>
+                        <p class="autor">
+                            por <a href="#">Diana Reyes</a>
+                        </p>
+                        <a class="tag" href="#">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong> min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a class="up" href="#"></a>
+                            <span class="total">156</span>
+                        <a class="down" href="#"></a>
+                    </div>
+                    <div class="datos">
+                        <a class="comentarios" href="#">
+                            10
+                        </a>
+                        <a class="estrellita" href="#"></a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <h3>
                 <strong>Powered by Platzi</strong>
                 <span class="mejor">
-                	mejorando.la 2013
+                    mejorando.la 2013
                 </span>
             </h3>
         </footer>
 
+        <script>
+        $(function() {
+            function crearSizer(pixels) {
+                return function() {
+                        $('body').css('font-size', pixels+'px');
+                }
+            }
+
+            $('.sizer').each(function(i, link) {
+                var pixels = $(link).prop('hash').substring(1);
+                $(link)
+                    .css('font-size', pixels+'px')
+                    .on('click', crearSizer(pixels));
+            });
+
+            function mostrarForm() {
+                $('form').slideToggle();
+            }
+
+            $('.publicar').on('click', mostrarForm);
+
+            function procesarForm(e) {
+                e.preventDefault();
+                var titulo = $('input[name=titulo]').val();
+                var autor = $('input[name=autor]').val();
+                var tag = $('input[name=tag]').val();
+                // var imagen = $('input[name=imagen]').val();
+                
+                $('section.posts').prepend('<article class="post"> ' +
+'                <div class="descripcion"> ' +
+'                                <figure class="imagen"> ' +
+'                                        <img src="global/img/foto.jpg" /> ' +
+'                                </figure> ' +
+'                                <div class="detalles"> ' +
+'                                        <h2 class="titulo"> ' +
+                                        titulo +
+'                                        </h2> ' +
+'                                        <p class="autor"> ' +
+'                                                por <a href="#">' + autor + '</a> ' +
+'                                        </p> ' +
+'                                        <a class="tag" href="#">'+tag+'</a> ' +
+'                                        <p class="fecha">hace <strong>0</strong> min</p> ' +
+'                                </div> ' +
+'                        </div> ' +
+'                        <div class="acciones"> ' +
+'                                <div class="votos"> ' +
+'                                        <a class="up" href="#"></a> ' +
+'                                        <span class="total">0</span> ' +
+'                                        <a class="down" href="#"></a> ' +
+'                                </div> ' +
+'                                <div class="datos"> ' +
+'                                        <a class="comentarios" href="#"> ' +
+'                                                0 ' +
+'                                        </a> ' +
+'                                        <a class="estrellita" href="#"></a> ' +
+'                                </div> ' +
+'                        </div> ' +
+'                </article>');
+                
+                $('form input[type=text]').val('');
+                $('form').slideUp();
+            }
+
+            $('form').on('submit', procesarForm);
+
+            function crearContador(inicial) {
+                var contador = inicial || 0;
+                return {
+                        up : function() {
+                                return ++contador;
+                        },
+                        down : function() {
+                                return --contador;
+                        }
+                };
+            };
+
+            $('.total').each(function(i, elem) {
+                var contador = crearContador(elem.innerHTML);
+                $(elem)
+                        .siblings('.up').on('click', function() {
+                                $(elem).html(contador.up());
+                        })
+                        .siblings('.down').on('click', function() {
+                                $(elem).html(contador.down());
+                        })
+            });
+        });
+        </script>
         <!-- JQUERY última versión!-->
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+        </script>
         <script>
             !window.jQuery && document.write("<script src='global/js/jquery-1.9.1.min.js'><\/script>");
         </script>
-        <script type="text/javascript" src="global/bootstrap/js/bootstrap.js"></script>
-        <script type="text/javascript" src="global/bootstrap/js/bootstrap-select.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
